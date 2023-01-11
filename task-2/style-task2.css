@@ -1,0 +1,33 @@
+body
+{
+    height: 100vh;
+}
+
+.info-1, .info-2, .info-3 
+{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    padding: 20px 15px 15px 15px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-1
+{
+    background-image: url(./assets/task2-bg.jpeg);
+}
+
+.info-2 
+{
+    background-image: url(./assets/task2-bg1.jpeg);
+}
+
+.info-3
+{
+    background-image: url(./assets/task2-bg2.jpg);
+}
